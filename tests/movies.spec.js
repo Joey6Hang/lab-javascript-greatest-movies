@@ -1,3 +1,4 @@
+
 const movies = require('../src/data');
 const {
   getAllDirectors,
@@ -9,7 +10,7 @@ const {
   turnHoursToMinutes,
   bestYearAvg,
 } = require('../src/movies');
-
+/*
 // Iteration 1
 describe('Function "getAllDirectors"', () => {
   it('should be declared', () => {
@@ -242,7 +243,7 @@ describe('Function "orderByYear"', () => {
     ]);
   });
 });
-
+*/
 // Iteration 6
 describe('Function "orderAlphabetically"', () => {
   it('should be declared', () => {
@@ -466,3 +467,4 @@ describe('Function "bestYearAvg"', () => {
     );
   });
 });
+
